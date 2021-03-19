@@ -1,0 +1,51 @@
+html {
+  font-size: 10px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a,
+a:hover {
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+}
+
+.main {
+  height: 100%;
+  max-width: 1450px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
