@@ -1,11 +1,8 @@
 import "./styles.scss";
+import SignUp from "../../components/SignUp";
 
 const Registration = () => {
-  return (
-    <div>
-      <h1>Registration</h1>
-    </div>
-  );
+  return <SignUp />;
 };
 
 export default Registration;
