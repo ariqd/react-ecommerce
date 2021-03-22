@@ -41,7 +41,7 @@ class SignUp extends Component {
       email,
       password,
       confirmPassword,
-      errors,
+      // errors,
     } = this.state;
 
     if (password !== confirmPassword) {
