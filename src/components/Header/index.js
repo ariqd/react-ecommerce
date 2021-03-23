@@ -17,6 +17,9 @@ const Header = ({ currentUser }) => {
           {currentUser ? (
             <ul>
               <li>
+                <Link to="/dashboard">My Account</Link>
+              </li>
+              <li>
                 <span
                   style={{ cursor: "pointer" }}
                   onClick={() => auth.signOut()}
